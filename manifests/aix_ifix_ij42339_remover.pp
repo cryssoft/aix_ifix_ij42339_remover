@@ -5,7 +5,7 @@
 #
 #-------------------------------------------------------------------------------
 #
-class profile::aix_ifix_ij42339_remover {
+class aix_ifix_ij42339_remover {
 
     #  This only applies to AIX and maybe VIOS in later versions
     if ($::facts['osfamily'] == 'AIX') {
